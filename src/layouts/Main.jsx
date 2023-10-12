@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import styles from './Main.module.css';
 
 const Main = () => {
     return (
-        <div>Main</div>
+        <div className={styles.main_container}>Main</div>
     )
 }
 
