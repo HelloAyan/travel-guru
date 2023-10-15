@@ -1,9 +1,12 @@
 import React from 'react';
 import styles from './Main.module.css';
+import { Container } from 'react-bootstrap';
 
 const Main = () => {
     return (
-        <div className={styles.main_container}>Main</div>
+        <Container fluid className={styles.my_container}>
+            <h2>hello</h2>
+        </Container>
     )
 }
 
