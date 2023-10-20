@@ -10,7 +10,7 @@ const Header = () => {
                     <img className='img-responsive' src={logo} alt="Logo " width={120} height={56} />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav" className='justify-content-between' >
+                <Navbar.Collapse id="basic-navbar-nav" className='justify-content-between ' >
                     <Nav style={{ width: '320px' }}>
                         <Form.Control
                             type="search"
@@ -25,7 +25,7 @@ const Header = () => {
                         <Nav.Link href="#link">Destination</Nav.Link>
                         <Nav.Link href="#link">Blog</Nav.Link>
                         <Nav.Link href="#link">Contact</Nav.Link>
-                        <Nav.Link href="#link" className='bg-warning ps-5'>
+                        <Nav.Link href="#link" className='bg-warning px-4 fw-semibold'>
                             Login
                         </Nav.Link>
 
