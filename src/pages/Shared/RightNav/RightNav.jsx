@@ -8,7 +8,7 @@ import sundorbon from '../../../assets/images/sundorbon.png';
 
 const RightNav = () => {
     return (
-        <div style={{ width: '900px', height: 'auto' }}>
+        <div className='pt-5' style={{ width: '900px', height: 'auto' }}>
             <Row style={{ width: '900px', height: 'auto', overflowY: 'scroll', scrollbarWidth: 'none' }}>
                 <Col lg={4} sm={12} className=' p-2'>
                     <Image src={sajek} width={270} height={416} className='rounded ' />
