@@ -15,7 +15,7 @@ const Main = () => {
                     <Col lg={5}>
                         <LeftNav></LeftNav>
                     </Col>
-                    <Col lg={7} style={{ overflowY: 'scroll', scrollbarWidth: 'none' }}>
+                    <Col lg={7} style={{ overflow: 'hidden' }}>
                         <RightNav></RightNav>
                     </Col>
                 </Row>
